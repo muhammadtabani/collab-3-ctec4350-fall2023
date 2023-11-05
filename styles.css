@@ -1,0 +1,62 @@
+*, *:before, :after {
+    box-sizing:border-box;
+  }
+  
+  :root {
+    --sec-spacer:6em;
+  }
+  
+  .container {
+      width: 72ch;
+      margin: 50px auto;
+      font-family: Arial, sans-serif;
+      position:relative;
+  }
+  
+  section {
+    border:1px solid #dadada;
+    padding:1em;
+    margin-bottom:var(--sec-spacer);
+  }
+  
+  input[type="text"]{
+      width: 100%;
+      padding: 10px;
+      box-sizing: border-box;
+      margin-bottom: 10px;
+  }
+  
+  ul {
+      list-style-type: none;
+      padding: 0;
+  }
+  
+  li {
+      padding: 8px 10px;
+      border-bottom: 1px solid #ddd;
+  }
+  
+  li:last-child {
+      border-bottom: none;
+  }
+  
+  .input-cb {
+    margin: 10px 0;
+  }
+  
+  label {
+      cursor: pointer;
+      display: inline-block;
+      margin-bottom: 5px;
+      margin-right: 10px;
+  }
+  
+  input[type="checkbox"],
+  input[type="radio"] {
+      margin-right: 5px;
+  }
+  
+  div > label:not(:last-child) {
+      margin-bottom: 10px;
+      display:block;
+  }
